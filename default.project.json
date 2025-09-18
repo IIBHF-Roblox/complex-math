@@ -1,0 +1,6 @@
+{
+  "name": "complex-math",
+  "tree": {
+        "$path": "./src"
+    }
+}
