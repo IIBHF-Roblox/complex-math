@@ -17,7 +17,7 @@ function ComplexMath:CalcDistanceNoZ(pos1: Vector3, pos2: Vector3)
 	local ydist = pos1.Y - pos2.Y
 
 	return math.sqrt((xdist ^ 2) + (ydist ^ 2))
-end
+end 
 
 function ComplexMath:getInverseSine(pos1: Vector3, pos2: Vector3, pos3: Vector3)
 	local adj = ComplexMath:CalcDistanceNoZ(pos1, pos2)
